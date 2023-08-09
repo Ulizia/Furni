@@ -1,0 +1,314 @@
+@media (max-width: 1200px) {
+  .banner_wrapper_photo_Dotted_gray {
+    padding-left: 0;
+    padding-top: 0;
+    top: 131px;
+    right: 0;
+  }
+
+  .banner_wrapper_photo_couch-1 {
+    width: 100%;
+  }
+  .crafted_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .crafted_wrapper_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .crafted_wrapper_content_title {
+    width: 100%;
+    padding-right: 0%;
+    text-align: center;
+  }
+
+  .crafted_wrapper_content_text {
+    width: 100%;
+    padding-right: 0%;
+  }
+
+  .crafted_wrapper_photo {
+    gap: 150px;
+  }
+
+  .Why_Choose_Us_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Why_Choose_Us_wrapper_content_title {
+    text-align: center;
+  }
+
+  .Why_Choose_Us_wrapper_content_text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .services {
+    width: 100%;
+  }
+
+  .services_list {
+    gap: 30px;
+    align-items: center;
+  }
+
+  .Why_ChooseUs_wrapper_photo_why-choose-us {
+    width: 100%;
+  }
+
+  .Nordic_CHAIR_photo {
+    width: 100%;
+  }
+
+  .Kruzo_Aero_Chair_photo {
+    width: 100%;
+  }
+
+  .Ergonomic_Chair_photo {
+    width: 100%;
+  }
+
+  .We_help_you_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .We_help_you_wrapper_content_title {
+    padding-top: 0;
+    text-align: center;
+    width: auto;
+  }
+  .We_help_you_wrapper_content_text {
+    text-align: center;
+    width: 100%;
+  }
+
+  .We_help_you_wrapper_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .We_help_you_wrapper_photo_Dot_dark_gray {
+    display: none;
+  }
+
+  .We_help_you_wrapper_photo_lamp {
+    display: none;
+  }
+
+  .We_help_you_wrapper_photo_high_stool {
+    display: none;
+  }
+
+  .middle_wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 80px;
+    padding-top: 80px;
+  }
+
+  .Testimonials_wrapper {
+    margin: 0 auto;
+  }
+
+  .Testimonials_wrapper_content {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .Testimonials_wrapper_content {
+    gap: 10px;
+  }
+
+  .Testimonials_wrapper_text {
+    width: 100%;
+  }
+
+  .Testimonials_wrapper_person_1 {
+    padding-top: 80px;
+  }
+
+  .Testimonials_wrapper_person_1_photo {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .coteiner {
+    padding: 0 20px;
+  }
+
+  .services_list {
+    gap: 0;
+  }
+
+  .Why_ChooseUs_wrapper_photo_Dot_yellou {
+    top: 0;
+  }
+
+  .Why_ChooseUs_wrapper_photo_why-choose-us {
+    padding-top: 55px;
+  }
+
+  .Why_Choose_Us_wrapper_content_title {
+    padding-top: 164px;
+  }
+
+  .footer_wrapper_Subscribe_to_Newsletter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Subscribe_to_Newsletter_form_photo {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+  }
+
+  .Subscribe_to_Newsletter {
+    align-items: center;
+  }
+
+  .Subscribe_form_title {
+    text-align: center;
+  }
+
+  .footer_wrapper_line {
+    width: 950px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner_wrapper {
+    flex-direction: column;
+  }
+
+  .banner_wrapper_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services_list_text {
+    width: 160px;
+  }
+
+  .We_help_you_wrapper_photo_pillows {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .We_help_you_wrapper_content_list {
+    width: 100%;
+    column-gap: 0;
+    width: 100%;
+  }
+
+  .list_inner_left {
+    width: 140px;
+  }
+
+  .list_inner_right {
+    width: 140px;
+  }
+
+  .footer_wrapper_Furni_contetn {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer_wrapper_Furni_title {
+    text-align: center;
+  }
+
+  .Furni_contetn_text {
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .Service_Support_Jobs_Chair {
+    text-align: center;
+  }
+
+  .footer_wrapper_social {
+    justify-content: center;
+    padding-top: 40px;
+  }
+
+  .footer_wrapper_line {
+    width: 730px;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu_list {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 44px;
+    text-align: center;
+  }
+
+  .banner_wrapper_photo_Dotted_gray {
+    width: 50%;
+  }
+
+  .crafted_wrapper_photo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner_wrapper_photo_Dotted_gray {
+    display: none;
+  }
+
+  .services_list {
+    justify-content: center;
+  }
+
+  .We_help_you_wrapper_content_list_inner {
+    justify-content: center;
+  }
+
+  .footer_wrapper_line {
+    width: 400px;
+  }
+
+  .Subscribe_to_Newsletter_form {
+    flex-direction: column;
+  }
+
+  .Subscribe_to_Newsletter_item {
+    justify-content: center;
+  }
+
+  .Subscribe_form_button_wrapper {
+   
+    display: flex;
+   justify-content: center;
+   
+  }
+}

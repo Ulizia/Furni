@@ -1,0 +1,984 @@
+header {
+  background-color: #385d50;
+}
+
+.banner {
+  background-color: #385d50;
+}
+.coteiner {
+  max-width: 1142px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-top: 24px;
+
+  font-family: Inter;
+  font-style: Medium;
+  font-size: 32px;
+  line-height: 39px;
+  line-height: 100%;
+  text-decoration: none;
+  vertical-align: Top;
+  fill: Solid;
+  color: #fff;
+}
+
+.dotted {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.menu_list {
+  display: flex;
+
+  padding-top: 35px;
+  gap: 44px;
+}
+
+.menu_list > li > a {
+  font-family: Urbanist;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+  padding-bottom: 7px;
+}
+
+.menu_list > li > a:hover {
+  border-bottom: 5px solid #f9bf29;
+}
+
+.banner_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+  width: 419px;
+  height: 130px;
+  padding-top: 157px;
+}
+
+.banner_wrapper_content_buttons {
+  display: flex;
+  gap: 14px;
+
+  padding-top: 117px;
+}
+
+.button_banner_Shop_Now {
+  width: 150px;
+  height: 50px;
+  background-color: #385d50;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.button_banner_Shop_Now:hover {
+  background-color: #f9bf29;
+  color: #2f2f2f;
+}
+
+.button_banner_Explore {
+  width: 150px;
+  height: 50px;
+  background-color: #385d50;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.button_banner_Explore:hover {
+  background-color: #f9bf29;
+  color: #2f2f2f;
+}
+.banner_wrapper_photo {
+  display: flex;
+  position: relative;
+}
+
+.banner_wrapper_photo_couch-1 {
+  width: 724px;
+  padding-top: 114px;
+  position: relative;
+  z-index: 2;
+}
+
+.banner_wrapper_photo_Dotted_gray {
+  width: 260px;
+  position: absolute;
+  padding-top: 131px;
+  padding-left: 553px;
+  z-index: 1;
+}
+
+.crafted {
+  background-color: #eff2f1;
+}
+
+.crafted_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.crafted_wrapper_content_title {
+  width: 205px;
+  padding-top: 164px;
+  padding-right: 139px;
+  color: #2f2f2f;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-size: 34px;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.crafted_wrapper_content_text {
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  line-height: 24px;
+  width: 228px;
+  padding-top: 27px;
+  padding-bottom: 33px;
+}
+
+.crafted_wrapper_content_button {
+  width: 122px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #2f2f2f;
+
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 28px;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.crafted_wrapper_photo {
+  display: flex;
+  justify-content: space-between;
+  gap: 79px;
+  padding-top: 151px;
+}
+
+.crafted_wrapper_photo_Nordic_CHAIR {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo_Nordic_CHAIR_name {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.photo_Nordic_CHAIR_price {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.crafted_wrapper_photo_Kruzo_Aero_Chair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo_Kruzo_Aero_Chair_name {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.photo_Kruzo_Aero_Chair_price {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.crafted_wrapper_photo_Ergonomic_Chair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo_Ergonomic_Chair_name {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.photo_Ergonomic_Chair_price {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.Why_Choose_Us {
+  background-color: #eff2f1;
+}
+
+.Why_Choose_Us_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 154px;
+}
+
+.Why_Choose_Us_wrapper_content_title {
+  padding-top: 233px;
+  color: #2f2f2f;
+  font-size: 34px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.Why_Choose_Us_wrapper_content_text {
+  width: 444px;
+  padding-top: 27px;
+  padding-bottom: 90px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  line-height: 24px;
+}
+
+.services {
+  width: 474px;
+}
+
+.services_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services_list_icon {
+  width: 44px;
+}
+
+.services_list_title {
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.services_list_text {
+  width: 216px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  line-height: 22px;
+}
+
+.Why_ChooseUs_wrapper_photo {
+  position: relative;
+}
+
+.Why_ChooseUs_wrapper_photo_why-choose-us {
+  width: 514px;
+  padding-top: 208px;
+  position: relative;
+  z-index: 2;
+}
+
+.Why_ChooseUs_wrapper_photo_Dot_yellou {
+  width: 262px;
+  position: absolute;
+  top: 155px;
+  left: -85px;
+  z-index: 1;
+}
+
+.We_help_you {
+  background-color: #eff2f1;
+}
+
+.We_help_you_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 46px;
+}
+
+.We_help_you_wrapper_photo {
+  display: flex;
+  position: relative;
+  padding-bottom: 219px;
+}
+
+.We_help_you_wrapper_photo_Dot_dark_gray {
+  width: 262px;
+  position: absolute;
+  top: 130px;
+  left: -112px;
+}
+
+.We_help_you_wrapper_photo_pillows {
+  width: 422px;
+  position: relative;
+  padding-top: 185px;
+  padding-right: 33px;
+  display: block;
+  border-radius: 10px;
+}
+
+.We_help_you_wrapper_photo_lamp {
+  width: 187px;
+  height: 187px;
+  position: relative;
+  padding-top: 185px;
+}
+
+.We_help_you_wrapper_photo_high_stool {
+  width: 291px;
+  position: absolute;
+  top: 400px;
+  left: 355px;
+}
+
+.We_help_you_wrapper_content_title {
+  padding-top: 227px;
+  width: 378px;
+  color: #2f2f2f;
+  font-size: 34px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.We_help_you_wrapper_content_text {
+  padding-top: 28px;
+  padding-bottom: 31px;
+  width: 444px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.We_help_you_wrapper_content_list_inner {
+  display: flex;
+  flex-wrap: wrap;
+
+  column-gap: 24px;
+}
+
+.list_inner_left {
+  width: 194px;
+  padding-left: 21px;
+  padding-bottom: 24px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  position: relative;
+}
+
+.list_inner_left::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 8px;
+  border: 2px solid #3b5d50;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.list_inner_right {
+  width: 194px;
+  padding-left: 21px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  position: relative;
+}
+
+.list_inner_right::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 8px;
+  border: 2px solid #3b5d50;
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+.We_help_you_wrapper_content_button {
+  padding-bottom: 38px;
+}
+
+.We_help_you_wrapper_content_Explore {
+  width: 122px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #2f2f2f;
+
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 28px;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.middle {
+  background-color: #eff2f1;
+}
+
+.middle_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle_wrapper_Nordic_Chair {
+  display: flex;
+  gap: 40px;
+}
+
+.middle_wrapper_Nordic_Chair_photo {
+  width: 91px;
+  height: 125px;
+}
+
+.middle_wrapper_Nordic_Chair_tite {
+  padding-bottom: 11px;
+  color: #000;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.cmiddle_wrapper_Nordic_Chair_text {
+  padding-bottom: 11px;
+  width: 211px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.middle_wrapper_Nordic_Chair_read_more {
+  color: #6a6a6a;
+  font-size: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.middle_wrapper_Kruzi_Aero {
+  display: flex;
+  gap: 40px;
+}
+
+.middle_wrapper_Kruzi_Aero_photo {
+  width: 98px;
+  height: 107px;
+}
+
+.middle_wrapper_Kruzi_Aero_tite {
+  padding-bottom: 11px;
+  color: #000;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.cmiddle_wrapper_Kruzi_Aero_text {
+  padding-bottom: 11px;
+  width: 211px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.middle_wrapper_Kruzi_Aero_read_more {
+  color: #6a6a6a;
+  font-size: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.middle_wrapper_Ergonomic_Chair {
+  display: flex;
+  gap: 40px;
+}
+
+.middle_wrapper_Ergonomic_Chair_photo {
+  width: 78px;
+  height: 119px;
+}
+
+.middle_wrapper_Ergonomic_Chair_tite {
+  padding-bottom: 11px;
+  color: #000;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.middle_wrapper_Ergonomic_Chair_text {
+  padding-bottom: 11px;
+  width: 211px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.middle_wrapper_Ergonomic_Chair_read_more {
+  color: #6a6a6a;
+  font-size: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.Testimonials {
+  background-color: #eff2f1;
+}
+
+.Testimonials_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Testimonials_wrapper_title {
+  padding-top: 95px;
+  padding-bottom: 47px;
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 34px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.Testimonials_wrapper_content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 75px;
+}
+
+.Testimonials_wrapper_button {
+  margin-top: -35px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: solid 1px #eff2f1;
+  color: #000000;
+  background-color: #d9d9d9;
+  cursor: pointer;
+}
+
+.Testimonials_wrapper_button:hover {
+  background-color: #385d50;
+  color: #ffffff;
+}
+
+.Testimonials_wrapper_text {
+  padding-bottom: 42px;
+
+  margin: 0 auto;
+  width: 759px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.Testimonials_wrapper_person_1_photo {
+  width: 86px;
+  height: 86px;
+  padding-bottom: 4px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.Testimonials_wrapper_name {
+  padding-bottom: 4px;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Testimonials_wrapper_CEO {
+  color: #2f2f2f;
+  text-align: center;
+  font-size: 13px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.Recent_Blog {
+  background-color: #eff2f1;
+}
+
+.Recent_Blog_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Recent_Blog_title {
+  padding-top: 41px;
+  padding-bottom: 36px;
+  color: #2f2f2f;
+  font-size: 34px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.RecentBlog_View_All_Posts {
+  padding-top: 41px;
+  color: #2f2f2f;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 41px;
+}
+
+.Recent_Blog_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.Recent_Blog_wrapper_inner_two_stools_photo {
+  padding-bottom: 44px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.Recent_Blog_wrapper_inner_table_photo {
+  padding-bottom: 44px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.Recent_Blog_wrapper_inner_Mask_group_photo {
+  padding-bottom: 44px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.Recent_Blog_wrapper_inner_title {
+  padding-bottom: 5px;
+  color: #2f2f2f;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Recent_Blog_wrapper_inner_text {
+  padding-bottom: 156px;
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_wrapper_Subscribe_to_Newsletter {
+  position: relative;
+}
+
+.footer_wrapper_Subscribe_to_Newsletter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Subscribe_to_Newsletter_item {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 24px;
+}
+
+.Subscribe_form_envelope {
+  padding-top: 95px;
+}
+
+.Subscribe_form_title {
+  padding-top: 98px;
+  color: #2f2f2f;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Subscribe_to_Newsletter_form {
+  display: flex;
+  gap: 15px;
+}
+
+.Subscribe_form_name {
+  padding-left: 22px;
+  width: 262px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Subscribe_form_e-mail {
+  padding-left: 22px;
+  width: 262px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  color: #2f2f2f;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Subscribe_form_button {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #c4c4c4;
+  background: #35736e;
+  cursor: pointer;
+}
+
+.Subscribe_to_Newsletter_form_photo {
+  width: 400px;
+  position: absolute;
+  top: -76px;
+  left: 740px;
+}
+
+.footer_wrapper_Furni_title {
+  padding-top: 138px;
+  padding-bottom: 19px;
+  color: #000;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer_wrapper_Furni_contetn {
+  display: flex;
+  gap: 65px;
+}
+
+.Furni_contetn_text {
+  padding-bottom: 60px;
+
+  width: 360px;
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Furni_About_us,
+.Furni_support,
+.Furni_jobs,
+.Nordic_Chair {
+  display: flex;
+  flex-direction: column;
+}
+
+.Service_Support_Jobs_Chair {
+  color: #6a6a6a;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.footer_wrapper_social {
+  display: flex;
+  gap: 11px;
+}
+
+.footer_wrapper_social_button {
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  border: 1px solid #c4c4c4;
+  background: #d9d9d9;
+  cursor: pointer;
+}
+
+.social_button_photo {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer_wrapper_line {
+  margin-top: 32px;
+  margin-bottom: 36px;
+  background: #eff2f1;
+  width: 1140px;
+  height: 1px;
+}
+
+.footer_wrapper_end {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 96px;
+}
+
+.footer_wrapper_end_Copyright {
+  color: #6a6a6a;
+  font-size: 13px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.Terms_Privacy {
+  display: flex;
+  gap: 42px;
+}
+
+.Terms_Privacy_text {
+  color: #6a6a6a;
+  text-align: right;
+  font-size: 14px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
